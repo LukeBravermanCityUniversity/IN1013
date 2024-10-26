@@ -1,4 +1,3 @@
--- Create the petPet table
 CREATE TABLE petPet (
                         petname VARCHAR(20) NOT NULL,
                         owner VARCHAR(45) NOT NULL,
@@ -9,7 +8,6 @@ CREATE TABLE petPet (
                         PRIMARY KEY (petname)
 );
 
--- Create the petEvent table
 CREATE TABLE petEvent (
                           petname VARCHAR(20) NOT NULL,
                           eventdate DATE NOT NULL,
